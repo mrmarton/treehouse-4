@@ -1,0 +1,206 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Raleway', sans-serif;
+	line-height: 1.9;
+	color: #9e2f56;
+}
+
+p {
+	font-size: 1.1em;
+  margin-top: 0;
+}
+
+a {
+  color: #3a3a3a;
+	text-decoration: none;
+}
+
+img {
+	max-width: 100%;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+header {
+  text-align:center;
+  width: 100%;
+  background-color: #f9fdfe;
+  padding-bottom: 50px 0;
+  border-bottom: 1px solid #3ee05c;
+}
+
+.title {
+  font-family: 'Roboto Slab', serif;
+  font-size: 1.8rem;
+  color: #3ee05c;
+  line-height: 4;
+  padding: 33px 0 0;
+}
+
+.searchbox {
+  padding-bottom: 30px;
+}
+
+input {
+  font-size: .9em;
+  width: 60%;
+  font-family: 'Open Sans', sans-serif;
+  height: 2.5em;
+  padding: 8px;
+  margin-bottom: 1.2em;
+  border-radius: .9em;
+  border: 1px solid #3ee05c;
+  background-color: rgba(255,255,255, 0.75);
+}
+
+::placeholder {
+  font-style: italic;
+  color: #999;
+}
+
+.blurb {
+  font-size: 1.22rem;
+  color: #aab0b6;
+  padding: 12px;
+  width: 100%;
+}
+
+
+.gallery img {
+  padding: 7.5px;
+}
+
+.gallery .empty {
+  width: 100%;
+  margin: 5px auto 45px;
+  background-color: rgba(122, 157, 179, .6);
+  color: #ddff96;
+  padding: 20px;
+  text-align: center;
+  font-size: 1.2em;
+}
+
+main {
+  text-align: left;
+  margin: 0 auto;
+}
+
+
+
+footer {
+  width: 100%;
+  min-height: 30px;
+
+}
+footer .social-container {
+ text-align:center;
+  width: 100%;
+}
+
+
+footer .copyright {
+  padding-top: 40px;
+  font-size: .9em;
+  opacity: 0.8;
+}
+
+
+
+
+	.clearfix::after {
+		content: " ";
+		display: table;
+		clear: both;
+	}
+
+
+
+@media (min-width: 445px) {
+
+
+
+.container {
+  width: 445px;
+  margin: 0 auto;
+}
+
+ input {
+    width: 60%;
+  }
+
+
+  main {
+    width: 100%;
+  }
+
+ .gallery {
+  text-align:left;
+}
+
+
+
+
+}
+@media (min-width: 660px) {
+
+  .container {
+    width: 660px;
+    margin: 0 auto;
+  }
+
+  .header {
+    display: block;
+  }
+
+  .blurb {
+      padding: 40px 7.5px;
+      width: 66.66666%;
+  }
+
+  .title {
+      text-align:left;
+      display: inline-block;
+      width: 49%;
+      padding-bottom: 25px;
+  }
+
+  .searchbox {
+    text-align:right;
+    display: inline-block;
+    width: 50%;
+    padding-bottom: 25px;
+  }
+
+  .gallery .empty {
+    margin: -15px auto 80px;
+    padding: 30px 0;
+  }
+
+  input {
+    width: 80%;
+  }
+
+}
+
+@media (min-width: 875px) {
+
+  .container {
+    width: 875px;
+    margin: 0 auto;
+  }
+
+  .blurb {
+    width: 75%;
+    padding: 50px 15px;
+  }
+
+
+
+
+}
